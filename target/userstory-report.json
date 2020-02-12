@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5137216419,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Mostrar la campaña de Incremento de Línea en compuerta Dashboard para validar que se muestre el texto de forma correcta",
+        "description": "",
+        "id": "creacion-de-un-documento-en-googleapps;mostrar-la-campaña-de-incremento-de-línea-en-compuerta-dashboard-para-validar-que-se-muestre-el-texto-de-forma-correcta;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3538270360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4763560006,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "ingresamos al buscador de GOOGLE",
+            "match": {
+              "location": "google_steps.ingresamosaGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5762933675,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hago clic en la opción Aplicaciones de GOOGLE y Selecciono GOOGLE DRIVE",
+            "match": {
+              "location": "google_steps.hagoLicEnLaOpciónAplicacionesDeGOOGLE()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3022762877,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "hago clic en la opcion Ir a Google Drive en la pagina de GOOGLE DRIVE",
+            "match": {
+              "location": "google_steps.hagoClicEnLaOpcionIrAGoogleDriveEnLaPaginaDeGOOGLEDRIVE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2902117319,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ingreso con mis credenciales \"pruebasweb01.MAHR\" y \"ExamenBCPWEB01\" en la pagina de Cuentas de GOOGLE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pruebasweb01.MAHR",
+                  "offset": 30
+                },
+                {
+                  "val": "ExamenBCPWEB01",
+                  "offset": 52
+                }
+              ],
+              "location": "google_steps.ingresoMiYEnLaPaginaDeCuentasDeGOOGLE(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10044214613,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "hago clic en el boton Nuevo y seleciono la opcion Documentos de Google en la pantalla DRIVE",
+            "match": {
+              "location": "google_steps.hagoClicEnElBotonNuevoYSelecionoLaOpcionDocumentosDeGoogleEnLaPantallaDRIVE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13736316882,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ingreso al documento creado y modificamos el nombre del documento \"E01_Moises Huaman Roncal_\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E01_Moises Huaman Roncal_",
+                  "offset": 67
+                }
+              ],
+              "location": "google_steps.ingresoAlDocumentoCreadoYModificamosElNombreDelDocumento(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test_Prueba_web"
+          }
+        ]
+      }
+    ],
+    "name": "Creacion de un Documento en GoogleApps",
+    "description": "",
+    "id": "creacion-de-un-documento-en-googleapps",
+    "keyword": "Feature",
+    "uri": "src/test/java/hitoriaDeUsuario/feature/RedaccionWord.feature"
+  }
+]
